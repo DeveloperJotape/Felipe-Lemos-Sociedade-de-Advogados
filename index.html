@@ -156,7 +156,7 @@ footer ul{list-style:none;margin:0;padding:0}footer li{margin-bottom:8px}footer 
 .js .rv.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important}.js .rv{transform:none!important}.burger i,nav li,.card,.btn{transform:none!important}}
 @media(max-width:560px){
- .logo-h{display:none!important}.logo-i{display:block!important}
+ .logo-slot img{height:36px}
  h2,.tag p{font-size:30px;line-height:36px}.hero h1{font-size:36px;line-height:40px}
  .hero .name,.eyebrow{letter-spacing:.08em;font-size:14px}.sub,.hero .lead{font-size:16px;line-height:24px}
  .card,.pillar{padding:24px 16px}.btn{width:100%}.cta{flex-direction:column}
@@ -284,7 +284,7 @@ figure{margin:0}
   <p class="eyebrow">Próximo passo</p>
   <h2 style="color:#F5F1EA">Vamos conversar sobre sua <em>demanda jurídica</em>?</h2>
   <p>Compromisso de atendimento: análise responsável dos fatos, comunicação transparente e observância dos deveres éticos da advocacia em todas as etapas.</p>
-  <div class="cta"><a class="btn wapp wa-link" href="#contato">Fale pelo WhatsApp</a><a class="btn line" href="https://www.instagram.com/adv.felipelemos" target="_blank" rel="noopener">Siga no Instagram</a></div>
+  <div class="cta"><a class="btn wapp wa-link" href="#contato">Fale pelo WhatsApp</a><a class="btn line" href="https://www.instagram.com/adv.feliperlemos/" target="_blank" rel="noopener">Siga no Instagram</a></div>
  </div>
 </section>
 
@@ -378,7 +378,7 @@ const items=[];
 if(CONFIG.OFFICE_PHONE)items.push(`<li>Telefone: ${CONFIG.OFFICE_PHONE}</li>`);
 if(ready)items.push(`<li><a href="${waUrl}" target="_blank" rel="noopener">WhatsApp</a></li>`);
 if(CONFIG.CONTACT_EMAIL)items.push(`<li><a href="mailto:${CONFIG.CONTACT_EMAIL}">${CONFIG.CONTACT_EMAIL}</a></li>`);
-items.push(`<li><a href="https://www.instagram.com/adv.felipelemos" target="_blank" rel="noopener">Instagram @adv.felipelemos</a></li>`,`<li><a href="https://felipelemosadvocacia.com" target="_blank" rel="noopener">felipelemosadvocacia.com</a></li>`);
+items.push(`<li><a href="https://www.instagram.com/adv.feliperlemos/" target="_blank" rel="noopener">Instagram @adv.feliperlemos</a></li>`,`<li><a href="https://felipelemosadvocacia.com" target="_blank" rel="noopener">felipelemosadvocacia.com</a></li>`);
 if(CONFIG.OFFICE_ADDRESS)items.push(`<li>${CONFIG.OFFICE_ADDRESS}</li>`);
 if(items.length)document.getElementById("contactList").innerHTML=items.join("");
 /* Google Maps (Embed API) */
